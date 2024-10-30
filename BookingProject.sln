@@ -3,21 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingProject.Domain", "BookingProject.Domain\BookingProject.Domain.csproj", "{AED0205B-2E11-4F6C-A46D-B5599D4B294A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingProject.Domain", "BookingProject.Domain\BookingProject.Domain.csproj", "{AED0205B-2E11-4F6C-A46D-B5599D4B294A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingProject.Application", "BookingProject.Application\BookingProject.Application.csproj", "{5A571BE8-CF81-4254-8BA4-50E33A0F62C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingProject.Application", "BookingProject.Application\BookingProject.Application.csproj", "{5A571BE8-CF81-4254-8BA4-50E33A0F62C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingProject.Infrastructure", "BookingProject.Infrastructure\BookingProject.Infrastructure.csproj", "{0A6D9673-0479-4353-B1B9-CF11AB52FD49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingProject.Infrastructure", "BookingProject.Infrastructure\BookingProject.Infrastructure.csproj", "{0A6D9673-0479-4353-B1B9-CF11AB52FD49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingProject.API", "BookingProject.API\BookingProject.API.csproj", "{3D7065FB-E291-4913-B59F-902D1E8D315D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingProject.API", "BookingProject.API\BookingProject.API.csproj", "{3D7065FB-E291-4913-B59F-902D1E8D315D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingProjectTests", "BookingProjectTests\BookingProjectTests.csproj", "{42427BF5-A774-46E0-A514-7399E23DAB26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AED0205B-2E11-4F6C-A46D-B5599D4B294A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -36,5 +35,15 @@ Global
 		{3D7065FB-E291-4913-B59F-902D1E8D315D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D7065FB-E291-4913-B59F-902D1E8D315D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D7065FB-E291-4913-B59F-902D1E8D315D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42427BF5-A774-46E0-A514-7399E23DAB26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42427BF5-A774-46E0-A514-7399E23DAB26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42427BF5-A774-46E0-A514-7399E23DAB26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42427BF5-A774-46E0-A514-7399E23DAB26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84F5D234-F660-4CB1-A4D1-8DA72E60C51D}
 	EndGlobalSection
 EndGlobal
