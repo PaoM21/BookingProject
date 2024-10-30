@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingProject.Infrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingProject.API", "BookingProject.API\BookingProject.API.csproj", "{3D7065FB-E291-4913-B59F-902D1E8D315D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingProject.Tests", "BookingProjectTests\BookingProject.Tests.csproj", "{42427BF5-A774-46E0-A514-7399E23DAB26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookingProject.Tests", "BookingProject.Tests\BookingProject.Tests.csproj", "{42427BF5-A774-46E0-A514-7399E23DAB26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
