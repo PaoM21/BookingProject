@@ -8,6 +8,7 @@ Para ejecución del proyecto backend.
 6. En la consola del entorno de desarrollo ejecute el siguiente comando ```docker-compose up --build``` para crear la imagen, container y volume en docker de la base de datos y el api del proyecto.
 7. Ingrese desde el navegador web de su preferencia a la ruta _http://localhost:8080/swagger/index.html_ donde encontrará los endpoint del proyecto backend.
 Para ejecución del proyecto frontend.
-1. Ejecute en la consola el comando ```npm install```.
-2. Ejecute en la consola el comando ```npm run dev```.
-3. Abra el link de ejecución que le muestra en consola y pruebe la funcionalidad.
+1. En la consola bash cambie a la ruta _/BookingProject/BookingProject_ .
+2. Ejecute en la consola bash el comando ```npm install```.
+3. Ejecute en la consola el comando ```npm run dev```.
+4. Abra el link de ejecución que le muestra en consola y pruebe la funcionalidad.
