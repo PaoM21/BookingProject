@@ -42,7 +42,24 @@ namespace BookingProject.Infrastructure.Repositories
 
         public async Task<IEnumerable<Reservation>> GetAllAsync(DateTime? date, int? clientId, int? serviceId)
         {
-            return await _context.Reservations.ToListAsync();
+            var query = _context.Reservations.AsQueryable();
+
+            if (date.HasValue)
+            {
+                query = query.Where(r => r.ReservationDate.Date == date.Value.Date);
+            }
+
+            if (clientId.HasValue)
+            {
+                query = query.Where(r => r.ClientId == clientId.Value);
+            }
+
+            if (serviceId.HasValue)
+            {
+                query = query.Where(r => r.ServiceId == serviceId.Value);
+            }
+
+            return await query.ToListAsync();
         }
     }
 }
