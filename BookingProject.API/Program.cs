@@ -6,10 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Agregar servicios al contenedor.
 builder.Services.AddControllers();
 
-// Configurar la conexión a la base de datos.
 builder.Services.AddDbContext<BookingContext>(options =>
     options.UseSqlServer(
         builder.Configuration.GetConnectionString("DefaultConnection"),
