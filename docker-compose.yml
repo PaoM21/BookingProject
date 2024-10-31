@@ -17,10 +17,6 @@ services:
       dockerfile: BookingProject.API/db.Dockerfile
     ports:
       - 1433:1433
-    # environment:
-    #   - ACCEPT_EULA=Y
-    #   - SA_PASSWORD=abc.1234!
-    #   - MSSQL_DBNAME=Booking
     volumes:
       - db_data:/var/opt/mssql
 volumes:
